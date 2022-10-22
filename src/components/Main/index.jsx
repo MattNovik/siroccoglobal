@@ -3,6 +3,9 @@ import InfoBlock from '../InfoBlock';
 import MainSlider from '../MainSlider';
 import InfoSection from '../InfoSection';
 import { nanoid } from 'nanoid';
+import first from '../../assets/first.jpg';
+import second from '../../assets/second.jpg';
+import third from '../../assets/third.jpg';
 
 const Main = ({ data }) => {
   const infoBlocksList = data.infoBlocksList;
@@ -12,9 +15,20 @@ const Main = ({ data }) => {
       <section id="info" className="info-blocks">
         <h2 className="info-blocks__about-us">{data.aboutUs}</h2>
         <ul className="info-blocks__list">
-          {infoBlocksList.map((item) => (
+          {infoBlocksList.map((item, index) => (
             <li className="info-blocks__item" key={nanoid()}>
-              <InfoBlock data={item} />
+              <InfoBlock
+                image={
+                  index === 0
+                    ? first
+                    : index === 1
+                    ? second
+                    : index === 2
+                    ? third
+                    : ''
+                }
+                data={item}
+              />
             </li>
           ))}
         </ul>

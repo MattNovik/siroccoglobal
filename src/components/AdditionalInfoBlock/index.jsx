@@ -1,6 +1,6 @@
 import './index.scss';
 
-const AdditionalInfoBlock = ({ data }) => {
+const AdditionalInfoBlock = ({ image, data }) => {
   return (
     <div className="additional-info-block">
       {/*                 <picture>
@@ -16,11 +16,7 @@ const AdditionalInfoBlock = ({ data }) => {
               alt="slide1"
             />
           </picture> */}
-      <img
-        src={'/src/assets/' + data.img + '.jpg'}
-        alt=""
-        className="additional-info-block__img"
-      />
+      <img src={image} alt="" className="additional-info-block__img" />
       <p className="additional-info-block__text">{data.text}</p>
     </div>
   );
