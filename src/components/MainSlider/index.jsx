@@ -44,21 +44,6 @@ const MainSlider = () => {
           <picture>
             <source
               type="image/webp"
-              srcSet={`${Slide2webp} 1x, ${Slide22xebp} 2x`}
-            />
-            <img
-              src={Slide2}
-              srcSet={`${Slide2} 1x, ${Slide22x} 2x`}
-              width="1280"
-              height="480"
-              alt="slide1"
-            />
-          </picture>
-        </SwiperSlide>
-        <SwiperSlide>
-          <picture>
-            <source
-              type="image/webp"
               srcSet={`${Slide1webp} 1x, ${Slide12xebp} 2x`}
             />
             <img
@@ -85,7 +70,7 @@ const MainSlider = () => {
             />
           </picture>
         </SwiperSlide>
-        <SwiperSlide>
+        {/*         <SwiperSlide>
           <picture>
             <source
               type="image/webp"
@@ -94,6 +79,21 @@ const MainSlider = () => {
             <img
               src={Slide2}
               srcSet={`${Slide4} 1x, ${Slide42x} 2x`}
+              width="1280"
+              height="480"
+              alt="slide1"
+            />
+          </picture>
+        </SwiperSlide> */}
+        <SwiperSlide>
+          <picture>
+            <source
+              type="image/webp"
+              srcSet={`${Slide2webp} 1x, ${Slide22xebp} 2x`}
+            />
+            <img
+              src={Slide2}
+              srcSet={`${Slide2} 1x, ${Slide22x} 2x`}
               width="1280"
               height="480"
               alt="slide1"

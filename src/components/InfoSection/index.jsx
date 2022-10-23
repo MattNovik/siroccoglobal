@@ -8,6 +8,7 @@ import addInfo4 from '../../assets/addinfo4.jpg';
 import addInfo5 from '../../assets/addinfo5.jpg';
 import addInfo6 from '../../assets/addinfo6.jpg';
 import addInfo7 from '../../assets/addinfo7.jpg';
+
 const InfoSection = ({ data }) => {
   const dataList = data.additionalInfo;
 
@@ -20,17 +21,17 @@ const InfoSection = ({ data }) => {
             <AdditionalInfoBlock
               image={
                 index === 0
-                  ? addInfo1
-                  : index === 1
-                  ? addInfo2
-                  : index === 2
                   ? addInfo3
-                  : index === 3
-                  ? addInfo4
-                  : index === 4
-                  ? addInfo5
-                  : index === 5
+                  : index === 1
                   ? addInfo6
+                  : index === 2
+                  ? addInfo5
+                  : index === 3
+                  ? addInfo7
+                  : index === 4
+                  ? addInfo1
+                  : index === 5
+                  ? addInfo2
                   : index === 6
                   ? addInfo7
                   : ''

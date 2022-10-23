@@ -40,38 +40,42 @@ const data = {
     additionalInfo: [
       {
         name: 'some info',
-        text: 'Act as Export Agent for your manufacturers and distributors Arrange outsourcing manufacturing',
-        img: 'addinfo1',
-      },
-      {
-        name: 'some info',
-        text: 'Assist foreign firms in sourcing your technology, products, services and joint ventures',
-        img: 'addinfo2',
-      },
-      {
-        name: 'some info',
         text: 'Act as Procurement and Purchasing agents for agents for overseas clients',
         img: 'addinfo3',
       },
-      {
-        name: 'some info',
-        text: 'Co-project and joint venture development and management',
-        img: 'addinfo4',
-      },
-      {
-        name: 'some info',
-        text: 'Trade Representation',
-        img: 'addinfo5',
-      },
+
       {
         name: 'some info',
         text: 'International trade consulting',
         img: 'addinfo6',
       },
+
+      {
+        name: 'some info',
+        text: 'Trade Representation',
+        img: 'addinfo5',
+      },
+      /*       {
+        name: 'some info',
+        text: 'Act as Export Agent for your manufacturers and distributors Arrange outsourcing manufacturing',
+        img: 'addinfo1',
+      }, */
+
+      /*       {
+        name: 'some info',
+        text: 'Co-project and joint venture development and management',
+        img: 'addinfo4',
+      }, */
+
       {
         name: 'some info',
         text: 'Provide procurement , global transportation and logistics solutions',
         img: 'addinfo7',
+      },
+      {
+        name: 'some info',
+        text: 'Assist foreign firms in sourcing your technology, products, services and joint ventures',
+        img: 'addinfo2',
       },
     ],
     infoBlocksList: [
@@ -97,7 +101,7 @@ const data = {
       companyAdressLink: 'https://goo.gl/maps/GzGMYmUpNF95bxhn6',
       companyTel: '+381629328622',
       companyTelLink: 'tel:+381629328622',
-      companyEmail: 'sirocc0.serbia@gmail.com',
+      companyEmail: 'sirocco.serbia@gmail.com',
       companyEmailLink: 'mailto:sirocc0.serbia@gmail.com',
     },
   },
@@ -142,38 +146,42 @@ const data = {
     additionalInfo: [
       {
         name: 'some info',
-        text: 'Делујте као извозни агент за ваше произвођаче и дистрибутере',
-        img: 'addinfo1',
-      },
-      {
-        name: 'some info',
-        text: 'Помозите страним фирмама у набавци ваше технологије, производа, услуга и заједничких улагања',
-        img: 'addinfo2',
-      },
-      {
-        name: 'some info',
         text: 'Делујте као агенти за набавку и набавку агената за иностране клијенте',
         img: 'addinfo3',
       },
-      {
-        name: 'some info',
-        text: 'Развој и управљање заједничким пројектима и заједничким улагањима',
-        img: 'addinfo4',
-      },
-      {
-        name: 'some info',
-        text: 'Траде Репресентатион',
-        img: 'addinfo5',
-      },
+
       {
         name: 'some info',
         text: 'Консалтинг у међународној трговини',
         img: 'addinfo6',
       },
+
+      {
+        name: 'some info',
+        text: 'Траде Репресентатион',
+        img: 'addinfo5',
+      },
+      /*       {
+        name: 'some info',
+        text: 'Делујте као извозни агент за ваше произвођаче и дистрибутере',
+        img: 'addinfo1',
+      }, */
+
+      /*       {
+        name: 'some info',
+        text: 'Развој и управљање заједничким пројектима и заједничким улагањима',
+        img: 'addinfo4',
+      }, */
+
       {
         name: 'some info',
         text: 'Обезбедите решења за набавку, глобални транспорт и логистику',
         img: 'addinfo7',
+      },
+      {
+        name: 'some info',
+        text: 'Помозите страним фирмама у набавци ваше технологије, производа, услуга и заједничких улагања',
+        img: 'addinfo2',
       },
     ],
     infoBlocksList: [
@@ -199,7 +207,7 @@ const data = {
       companyAdressLink: 'https://goo.gl/maps/GzGMYmUpNF95bxhn6',
       companyTel: '+381629328622',
       companyTelLink: 'tel:+381629328622',
-      companyEmail: 'sirocc0.serbia@gmail.com',
+      companyEmail: 'sirocco.serbia@gmail.com',
       companyEmailLink: 'mailto:sirocc0.serbia@gmail.com',
     },
   },
