@@ -12,7 +12,7 @@ const Main = ({ data }) => {
   return (
     <main className="main">
       <MainSlider />
-      <section id="info" className="info-blocks">
+      <section id="aboutus" className="info-blocks">
         <h2 className="info-blocks__about-us">{data.aboutUs}</h2>
         <ul className="info-blocks__list">
           {infoBlocksList.map((item, index) => (

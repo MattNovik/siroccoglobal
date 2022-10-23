@@ -9,7 +9,7 @@ const data = {
       },
       {
         name: 'INFO',
-        link: '#info',
+        link: '#aboutus',
       },
       {
         name: 'SERVICES',
@@ -111,7 +111,7 @@ const data = {
       },
       {
         name: 'ИНФО',
-        link: '#info',
+        link: '#aboutus',
       },
       {
         name: 'УСЛУГЕ',
