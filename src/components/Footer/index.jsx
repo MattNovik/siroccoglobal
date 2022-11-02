@@ -31,10 +31,10 @@ const Footer = ({ data }) => {
         </div>
 
         <div className="footer__right">
-          <a href={companyInfo.companyTelLink} className="footer__company-tel">
+          {/*           <a href={companyInfo.companyTelLink} className="footer__company-tel">
             <TelIcon />
             {companyInfo.companyTel}
-          </a>
+          </a> */}
           <a
             href={companyInfo.companyEmailLink}
             className="footer__company-email"
